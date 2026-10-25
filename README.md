@@ -13,7 +13,7 @@ It's designed to be called from automation tools such as Homebridge (via [homebr
 | `unifi-doorbell-color-night-vision/cnv.sh` | Main script: `on`, `off`, or `state` |
 | `unifi-doorbell-color-night-vision/cnv-on.sh` | Wrapper that runs `cnv.sh on` |
 | `unifi-doorbell-color-night-vision/cnv-off.sh` | Wrapper that runs `cnv.sh off` |
-| `unifi-doorbell-color-night-vision/homebridge-config-snippet.json` | Example Script2 config |
+| `unifi-doorbell-color-night-vision/homebridge-script2-config-snippet.json` | Example Script2 config |
 
 ## Requirements
 
