@@ -1,0 +1,17 @@
+{
+    "platform": "Script2Platform",
+    "name": "Script2",
+    "on_off_switches": [
+        {
+            "name": "Color Night Vision",
+            "on": "/PATH/TO/.homebridge/scripts/unifi-doorbell-color-night-vision/cnv-on.sh",
+            "off": "/PATH/TO/.homebridge/scripts/unifi-doorbell-color-night-vision/cnv-off.sh",
+            "state": "/PATH/TO/.homebridge/scripts/unifi-doorbell-color-night-vision/cnv.sh state",
+            "polling": true,
+            "polling_interval": 60000,
+            "command_timeout": 20000,
+            "reset_state_cache_on_set": true,
+            "unique_serial": "G6-ENTRY-CNV"
+        }
+    ]
+}
